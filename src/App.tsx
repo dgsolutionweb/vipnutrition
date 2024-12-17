@@ -95,7 +95,7 @@ const letterAnimation = {
 
 function App() {
   const handleWhatsApp = () => {
-    window.open('https://wa.me/5517991464147', '_blank');
+    window.open('https://wa.me/5517991464174', '_blank');
   };
 
   const handleInstagram = () => {
