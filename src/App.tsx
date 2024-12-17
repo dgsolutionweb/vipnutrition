@@ -5,7 +5,6 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 import GroupIcon from '@mui/icons-material/Group';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
 import LanguageIcon from '@mui/icons-material/Language';
-import CodeIcon from '@mui/icons-material/Code';
 import logo from './assets/logo.png';
 
 const theme = createTheme({
@@ -77,30 +76,6 @@ const buttonVariants = {
   tap: {
     scale: 0.95,
   },
-};
-
-const glowAnimation = {
-  initial: { opacity: 0.5 },
-  animate: {
-    opacity: [0.5, 1, 0.5],
-    transition: {
-      duration: 2,
-      repeat: Infinity,
-      ease: "easeInOut",
-    },
-  },
-};
-
-const textAnimation = {
-  initial: { opacity: 0, scale: 0.5 },
-  animate: {
-    opacity: 1,
-    scale: 1,
-    transition: {
-      duration: 0.5,
-      ease: "easeOut",
-    }
-  }
 };
 
 const letterAnimation = {
